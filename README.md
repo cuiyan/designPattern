@@ -6,3 +6,5 @@
 原型模
 ## singleton
 单例模式
+##adapter
+适配器模式
