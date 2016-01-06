@@ -8,3 +8,23 @@
 单例模式
 ##adapter
 适配器模式
+##Composite
+组合模式
+##decorate
+装饰模式
+##proxy
+代理模式
+##flyweight
+享元模式
+##facede
+外观模式
+##bridge
+桥梁模式
+##Chain of Responsibility pattern
+责任链模式
+##command
+命令模式
+##interpreter
+解释器模式
+##interator
+迭代器模式
