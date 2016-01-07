@@ -5,6 +5,9 @@ import java.util.Iterator;
 public class Test {
 	public static void main(String[] args) {
 		depthFirstIterator(createTree());
+		System.out.println("");
+		breadthFirstIterator(createTree());
+		
 	}
 	
 	public static Node createTree(){
@@ -18,6 +21,7 @@ public class Test {
 		a.addNode(d);
 		d.addNode(e);
 		c.addNode(f);
+		
 		node.addNode(a);
 		node.addNode(b);
 		node.addNode(c);
@@ -31,6 +35,14 @@ public class Test {
 	}
 	
 	public static void doSomething(Node node){
-		System.out.println(node);
+		System.out.print(node);
+		System.out.print(",");
+	}
+	
+	public static void breadthFirstIterator(Node tree){
+		doSomething(tree);
+		for(Iterator<Node> it = new BreadthFirstIterator(tree.iterator());it.hasNext();){
+			doSomething(it.next());
+		}
 	}
 }
