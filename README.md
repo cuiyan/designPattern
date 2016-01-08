@@ -38,3 +38,8 @@
 状态模式
 ##strategy
 策略模式
+##template_method
+模板方法模式
+##visitor
+访问者模式
+
