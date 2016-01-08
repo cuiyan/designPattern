@@ -10,8 +10,7 @@ public class PeopleB implements Visitor {
 
 	@Override
 	public void visit(PartB partB) {
-		// TODO Auto-generated method stub
-
+		System.out.println("partBÖ÷¹Ü"+partB.getName());
 	}
 
 }
