@@ -28,3 +28,7 @@
 解释器模式
 ##interator
 迭代器模式
+##mediator
+中介者模式
+##memento
+备忘录模式
